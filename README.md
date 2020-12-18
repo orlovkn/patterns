@@ -1,1 +1,1 @@
-# patterns.php
+# The Adapter Pattern
