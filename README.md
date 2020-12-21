@@ -1,1 +1,1 @@
-# patterns.php
+# The Strategy Pattern
