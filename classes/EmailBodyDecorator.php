@@ -1,10 +1,13 @@
 <?php
 
-class EmailBodyDecorator implements EmailBodyInterface
+abstract class EmailBodyDecorator implements EmailBodyInterface
 {
+    protected $emailBody;
 
-    public function loadBody()
+    public function __construct(EmailBodyInterface $emailBody)
     {
-        // TODO: Implement loadBody() method.
+        $this->emailBody = $emailBody;
     }
+
+    abstract public function loadBody();
 }
