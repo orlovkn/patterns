@@ -4,6 +4,6 @@ class Order
 {
     public function generateOrder()
     {
-        echo 'order created';
+        var_dump("generateOrder");
     }
 }

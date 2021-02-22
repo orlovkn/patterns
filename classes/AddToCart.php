@@ -6,5 +6,6 @@ class AddToCart
 
     public function __construct($productId) {
         $this->productId = $productId;
+        var_dump("added productId " . $this->productId );
     }
 }
